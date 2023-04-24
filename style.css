@@ -1,4 +1,106 @@
-header{
-    background-color: black;
-    color: #CCB29C;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+background: #BAB5F0
+}
+.cabecalho {
+    background-color: #141271;
+    ;
+    color: #FBEBEB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0 ;
+}
+
+.cabecalho-h1{
+    font-size: 70px;
+}
+.cabecalho-imagem{
+    width: 9%;
+
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+    color: #2C1F1F;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.container1-imagem{
+    width: 40%;
+}
+
+#container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.container1-conteudo{
+    width: 30%;
+}
+
+.container1-texto-1{
+    text-align: center;
+    font-size: 20px;
+    font-size: 27px;
+}
+.container1-texto-1 a{
+    text-decoration: none; 
+}
+.container1-texto-2-icone{
+    width: 45px;
+}
+
+#container2{
+    padding: 24px 0;
+}
+.container2-image{
+    width: 230px;
+}
+
+.container2-icone{
+    width: 45px;
+    padding: 4px 8px;
+
+}
+.container2-div{
+    text-align: center;
+    padding: 50px 0;
+}
+.container2-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.container2-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.classroom-imagem{
+    width: 40%;
+    margin: 10px 0 10px 0;
+}
+.insta-imagem{
+    width: 40%;
+    margin: 10px 0 10px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 25% 25% 30% 10% 10%;
+    background-color:#141271;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
 }
